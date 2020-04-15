@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+	margin: auto;
+}
+#Form{
+	display: flex;
+	flex-direction: row;
+}
+aside{
+	background-color: #00CED1;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	margin-right: 50px;
+    align-content: center;
+    position: relative;
+    overflow: auto;
+}
+aside .Image{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 50%;
+	border: 4px solid;
+	border-color: #008B8B;
+}
+aside header{
+	text-align: center;
+}
+aside h1{
+	background-color: #37474F;
+	text-align: center;
+	color: #00CED1;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+aside .propos{
+	align-content: center;
+	margin-right: 3.5em;
+	margin-left: 3.5em;
+	text-align: justify;
+}
+aside .coord{
+	margin-left: 3.5em;
+	text-align: justify;
+}
+p, h1,h3,i,h2, h4,ul{
+	font-family: 'Roboto',Verdana, sans-serif;
+}
+#Droite h1{
+	font-size: 50px;
+}
+#Droite h3{
+	font-size: 30px;
+}
+.Image{
+	border-radius: 50%;
+}
+.icon {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 35px;
+	margin-right:35px;
+	color:  #37474F;
+}
+aside i{
+	font-size: 40px; 		
+	border-radius: 50%;
+	border: solid #37474F;
+	padding: 0.2em;
+}
+section h3{
+	border-bottom: 1.5px #00CED1 solid;
+}
+.reco{
+	display: flex;
+	flex-direction: column;
+	margin-bottom:0em;
+}
+footer h3{
+	border-bottom: 1.5px #00CED1 solid;
+}
+.r2{
+	margin-left: 10em;
+}
+#Droite{
+	margin-left: 1.5em;
+	overflow: auto;
+}
+.groupe-de-r{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 2%;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+/* ----------- Partie ajoutée en session ----------- */
+
+/* Eviter de mettre du css dans le HTML */
+.contact-part {
+    color: #00CED1;
+    font-size: 1.7em;
+   	background-color: #37474F;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	font-weight: bold;
+}
+.title-margin{
+	margin-left:0.4em;
+}
+.title-margin2{
+	margin: 0.5em;
+}
+/* Placement des éléments de formation et d'expériences pro */
+.left-element-icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 5%;
+    color: #00CED1; 
+    font-size:20px;
+}
+h3 .left-element-icon{
+	font-size: 30px;
+}
+
+.element-dates {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 0;
+}
+
+.element-dates p {
+    margin: 0;
+}
+
+.element {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+}
+
+.element > h2 {
+    margin-top: 0;
+}
+
+/* Positionnement du footer Loisirs */
+aside footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
