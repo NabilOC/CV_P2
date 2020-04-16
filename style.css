@@ -170,7 +170,7 @@ h3 .left-element-icon{
     margin-top: 0;
 }
 /*----------------------------------------------------------------PARTIE RESPONSIVE---------------------------------------------------------*/
-@media screen and (max-width: 768px){
+@media all and (max-width: 1024px){
 	#Form{
 		width: auto;
 		display: flex;
