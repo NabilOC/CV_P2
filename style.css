@@ -179,7 +179,7 @@ h3 .left-element-icon{
 	p{
 		font-size: 14px;
 	}
-	aside, #Droite{
+	aside{
 		width: 100%;
 	}
 	aside header{
@@ -205,5 +205,8 @@ h3 .left-element-icon{
 	}
 	.contact-part2{
 		margin-top: 0;
+	}
+	#Droite{
+		width: auto;
 	}
 }
