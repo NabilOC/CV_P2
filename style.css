@@ -179,7 +179,7 @@ h3 .left-element-icon{
 	p{
 		font-size: 14px;
 	}
-	aside{
+	aside, #Droite{
 		width: 100%;
 	}
 	aside header{
