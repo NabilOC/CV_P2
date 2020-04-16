@@ -6,6 +6,10 @@ body{
 	display: flex;
 	flex-direction: row;
 }
+p, h1,h3,i,h2, h4,ul{
+	font-family: 'Roboto',Verdana, sans-serif;
+}
+/* --------------------------------------------------------------PARTIE ASIDE ------------------------------------*/
 aside{
 	background-color: #00CED1;
 	display: flex;
@@ -43,8 +47,25 @@ aside .coord{
 	margin-left: 3.5em;
 	text-align: justify;
 }
-p, h1,h3,i,h2, h4,ul{
-	font-family: 'Roboto',Verdana, sans-serif;
+aside i{
+	font-size: 40px; 		
+	border-radius: 50%;
+	border: solid #37474F;
+	padding: 0.2em;
+}
+.Image{
+	border-radius: 50%;
+}
+/* Positionnement du footer Loisirs */
+aside footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* ----------------------------------------------------------------PARTIE DROITE---------------------------------------*/
+body{
+	background-color: #D8D8D8;
 }
 #Droite h1{
 	font-size: 50px;
@@ -52,9 +73,7 @@ p, h1,h3,i,h2, h4,ul{
 #Droite h3{
 	font-size: 30px;
 }
-.Image{
-	border-radius: 50%;
-}
+
 .icon {
 	display: flex;
 	justify-content: space-between;
@@ -62,12 +81,7 @@ p, h1,h3,i,h2, h4,ul{
 	margin-right:35px;
 	color:  #37474F;
 }
-aside i{
-	font-size: 40px; 		
-	border-radius: 50%;
-	border: solid #37474F;
-	padding: 0.2em;
-}
+
 section h3{
 	border-bottom: 1.5px #00CED1 solid;
 }
@@ -99,10 +113,16 @@ a{
 	text-decoration: none;
 	color: black;
 }
-/* ----------- Partie ajoutée en session ----------- */
-
-/* Eviter de mettre du css dans le HTML */
 .contact-part {
+    color: #00CED1;
+    font-size: 1.7em;
+   	background-color: #37474F;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	font-weight: bold;
+}
+.contact-part2 {
     color: #00CED1;
     font-size: 1.7em;
    	background-color: #37474F;
@@ -149,11 +169,41 @@ h3 .left-element-icon{
 .element > h2 {
     margin-top: 0;
 }
-
-/* Positionnement du footer Loisirs */
-aside footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 20px;
+/*----------------------------------------------------------------PARTIE RESPONSIVE---------------------------------------------------------*/
+@media screen and (max-width: 768px){
+	#Form{
+		width: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	p{
+		font-size: 14px;
+	}
+	aside{
+		width: 100%;
+	}
+	aside header{
+		background-color: #D8D8D8;
+	}
+	aside footer{
+		position: relative;
+	}
+	.left-element-icon {
+    	display: inline-block;
+    	vertical-align: top;
+    	width: 5%;
+    	color: #00CED1; 
+    	font-size:15px;
+    }
+    .groupe-de-r{
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 2%;
+	}
+	.r2{
+		margin-left: 0em;
+	}
+	.contact-part2{
+		margin-top: 0;
+	}
 }
