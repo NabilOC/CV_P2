@@ -271,14 +271,14 @@ h3 .left-element-icon{
     	text-align: center;
     	font-size: 31px;
     }
-    , .r1 > p , .r1 > p{
+    .r1 > p , .r1 > p{
     	font-size: 22px;
     }
     .reco i{
     font-size: 44px;
 	}
 	#Droite{
-		margin-right: 1.5em;
+		margin-right: 1%;
 	}
 
  }
