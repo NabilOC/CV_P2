@@ -176,14 +176,16 @@ h3 .left-element-icon{
 		display: flex;
 		flex-direction: column;
 	}
-	p{
-		font-size: 14px;
+	p,li{
+		font-size: 29px;
 	}
 	aside{
 		width: 100%;
 	}
 	aside header{
 		background-color: #D8D8D8;
+		padding-bottom: 5em;
+
 	}
 	aside footer{
 		position: relative;
@@ -206,7 +208,59 @@ h3 .left-element-icon{
 	.contact-part2{
 		margin-top: 0;
 	}
-	#Droite{
-		width: auto;
+	#Droite h1{
+		text-align: center;
+		font-size:400%;
+		position: absolute;
+		width: 100%;
+		top:6.5em;
 	}
+	aside .Image{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 40%;
+	border: 4px solid;
+	border-color: #008B8B;
+	}
+	#Droite h3{
+		text-align: center;
+		font-size: 300%;
+	}
+	aside i {
+    font-size: 90px;
+    border-radius: 50%;
+    border: solid #37474F;
+    padding: 0.25em;
+    }
+    .contact-part, .contact-part2{
+    	font-size: 2em;
+    }
+
+    .formation {
+        text-align: center;
+    }
+
+    .element-dates {
+        display: block;
+        width: 100%;
+    }
+    .element-dates > p {
+        font-size: 22px;
+    }
+    .element {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .nom-entreprise{
+    	text-align: center;
+    	font-size: 170%;
+    }
+    .r1,.r2{
+    	text-align: center;
+    	font-size: 31px;
+    }
+    , .r1 > p , .r1 > p{
+    	font-size: 22px;
+    }
 }
