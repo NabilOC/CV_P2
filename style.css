@@ -235,6 +235,7 @@ h3 .left-element-icon{
 	#Droite h3{
 		text-align: center;
 		font-size: 300%;
+		margin-right: 0.4em;
 	}
 	aside i {
     font-size: 90px;
@@ -276,4 +277,5 @@ h3 .left-element-icon{
     .reco i{
     font-size: 44px;
 	}
+
  }
