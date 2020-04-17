@@ -195,7 +195,10 @@ h3 .left-element-icon{
     	vertical-align: top;
     	width: 5%;
     	color: #00CED1; 
-    	font-size:15px;
+    	font-size:25px;
+    }
+    .fa-pencil-alt{
+    	font-size: 44px;
     }
     .groupe-de-r{
 		display: flex;
@@ -210,17 +213,20 @@ h3 .left-element-icon{
 	}
 	#Droite h1{
 		text-align: center;
-		font-size:400%;
+		font-size:6em;
 		position: absolute;
 		width: 100%;
 		top:6.5em;
 	}
 	aside .Image{
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 13em;
+	margin-bottom: 13em;
 	width: 40%;
 	border: 4px solid;
 	border-color: #008B8B;
+	}
+	aside .coord{
+		margin-left: 6.3em;
 	}
 	#Droite h3{
 		text-align: center;
@@ -233,7 +239,7 @@ h3 .left-element-icon{
     padding: 0.25em;
     }
     .contact-part, .contact-part2{
-    	font-size: 2em;
+    	font-size: 4em;
     }
 
     .formation {
@@ -263,4 +269,7 @@ h3 .left-element-icon{
     , .r1 > p , .r1 > p{
     	font-size: 22px;
     }
-}
+    .reco i{
+    font-size: 44px;
+	}
+ }
