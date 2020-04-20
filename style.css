@@ -166,7 +166,12 @@ h3 .left-element-icon{
     vertical-align: top;
     width: 70%;
 }
-
+.NomEssai{
+	position: absolute;
+	width: 100%;
+	right: 100em;
+	top: 100em;
+}
 .element > h2 {
     margin-top: 0;
 }
@@ -221,11 +226,12 @@ h3 .left-element-icon{
 		font-size:6em;
 		position: absolute;
 		width: 100%;
-		top:6.5em;
+		right: 100em;
+		top: 100em;
 	}
 	aside .Image{
 	margin-top: 13em;
-	margin-bottom: 13em;
+	margin-bottom: 1em;
 	width: 40%;
 	border: 4px solid;
 	border-color: #008B8B;
@@ -281,6 +287,12 @@ h3 .left-element-icon{
 	}
 	#Droite{
 		margin-right: 1%;
+	}
+	.NomEssai{
+		font-size: 96px;
+		position: relative;
+		top: 0;
+		right: 0;
 	}
 
  }
